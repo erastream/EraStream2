@@ -1,8 +1,18 @@
+<?php
+$ccc = '</br></br>';
+foreach ($comments as $comment) {
+    $ccc = $ccc. $comment->username . '</br> םÞזב : ';
+	$ccc = $ccc. $comment->text . '</br></br>';
+}
+?>
+
+
 		<?php
+			echo $ccc;
 			$this->load->helper('form');
 			echo form_open('live/new_comment');
 			?>
-			<br><br><br><br>
+			
 <form method=post="http://www.kumquat.com/demo">
 <input type="hidden" name="video_id" value="<?=$video_id?>"/>
 <table><tr><td>
