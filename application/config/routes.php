@@ -40,6 +40,7 @@
 
 $route['default_controller'] = "Live";
 $route['404_override'] = '';
+$route['show/:num'] = 'live/show/$1';
 
 
 /* End of file routes.php */
