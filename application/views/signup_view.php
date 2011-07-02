@@ -1,0 +1,17 @@
+		<?php
+			$this->load->helper('form');
+			echo form_open('live/newUser');
+			?>
+		<table><tr><td>
+		«·«”„ «·«Ê·:</td><td> <input type="text" name="first_name"></input></td></tr>
+		<tr><td>«·«”„ «·À«‰Ï :</td> <td><input type="text" name="last_name"></input></td></tr>
+		<tr><td>«”„ «·„” Œœ„ :</td><td> <input type="text" name="username"></input></td></tr>
+		<tr><td>ﬂ·„… «·”— :</td><td> <input type="password" name="password"></input></td></tr>
+		<tr><td>«·»—Ìœ «·«·ﬂ —Ê‰Ï :</td><td>  <input type="text" name="email"></input></td></tr>
+		<tr><td>«·‰Ê⁄ :</td><td> <input type="radio" name="sex" value="0" text="male">–ﬂ—</input>
+		<input type="radio" name="sex" value="1" text="Female">«‰ÀÏ</input></td></tr>
+		<tr><td></td><td><input class="button_02" type="submit" value=" ”ÃÌ· „” Œœ„ ÃœÌœ"></input></td></tr>
+		</table>
+		<?php echo form_close(); ?>
+		
+		

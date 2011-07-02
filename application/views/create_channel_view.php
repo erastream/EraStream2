@@ -1,0 +1,1 @@
+		<?php			$this->load->helper('form');			echo form_open('live/createChannel');			?>				«”„ «·ﬁ‰«…: <input type="text" name="channel_name"></input></br>		Ê’› «·ﬁ‰«… : <input type="text" name="channel_disc"></input></br>		<input type="hidden" name="user_id" value="<?=$user_id?>">		<input type="submit" value="«‰‘«¡ «·ﬁ‰«… «·Œ«’… »ﬂ"></input>		<?php echo form_close(); ?>
