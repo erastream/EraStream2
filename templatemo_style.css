@@ -451,4 +451,157 @@ img { margin: 0px; padding: 0px; border: none; }
 #copyright a:hover {
 	color: #999999;
 }
+ul, li {
+margin: 0;
+padding: 0;
+}
+.comx {
+letter-spacing: 0!important;
+font-size: 13px;
+font: 12px/1.5 "Lucida Grande",Arial,sans-serif;
+color: #111;
+float: right;
+display: block;
+}
+li {
+display: list-item;
+}
+.clearfix::after {
+content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+}
+.comx ul {
+list-style: none;
+}
+.comx ul, menu, dir {
+list-style-type: disc;
+}
+.comx ul {
+list-style: none;
+}
+.comx ul.comments div.avatar {
+margin: 0 0 10px;
+}
+.comx div.avatar {
+float: right;
+display: block;
+width: 80px;
+position: relative;
+text-align: center;
+font-size: 10px;
+overflow: hidden;
+white-space: nowrap;
+}
+.comx div.avatar .person {
+background: #F1F1F1 url(http://s6.netlogstatic.com/v6.00/116315/s/i/common/avatar_nickname_bg.png) repeat-x bottom;
+color: #333!important;
+display: block;
+}
+.comx div.avatar .imageWrap {
+display: block;
+height: 60px;
+overflow: hidden;
+background: #BBB;
+padding: 0;
+display: block;
+}
+.comx a {
+color: #47A;
+text-decoration: none;
+color: #47A;
+cursor: pointer;
+}
+.comx a:-webkit-any-link {
+color: -webkit-link;
+text-decoration: underline;
+cursor: auto;
+}
+.comx img[width=80] {
+width: 80px;
+}
+.comx img[height=60] {
+height: 60px;
+}
+.comx img, fieldset {
+border: 0;
+-ms-interpolation-mode: bicubic;
+}
+.comx div.avatar .nick {
+text-decoration: none;
+display: block;
+border-bottom: 2px solid #CCC;
+width: 76px;
+padding: 0 2px;
+overflow: hidden;
+}
+.comx  div.avatar .nick{
+direction: ltr;
+}
+.comx div.avatar.female .age {
+background: #FF6795;
+top: 45px;
+}
+.comx div.avatar .age {
+position: absolute;
+top: 43px;
+right: 3px;
+background: #666;
+color: white;
+padding: 2px;
+line-height: 1em;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+}
+.comx ul.comments div.avatar {
+margin: 0 0 10px;
+}
+.comx ul.comments li p {
+padding-left: 0;
+padding-right: 95px;
+}
+.comx p {
+display: block;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+}
+.comx ul.comments small {
+font-size: 10px;
+}
+.comx .dimmed {
+color: #777;
+display:block;
+}
+.comx .clrd,.comx  .dimmed {
+color: #777;
+}
+.comx small {
+font-size: 11px;
+}
+.comx small {
+font-size: smaller;
+}
+.comx hr {
+height: 1px;
+margin: .75em 0;
+clear: both;
+width: 100%;
+border: 0;
+background: #CCC;
+background: rgba(0, 0, 0, .2);
+}
+.comx .clearfix::after {
+content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+}
+
+
 /* end of footer */
