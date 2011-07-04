@@ -461,9 +461,9 @@ font-size: 13px;
 font: 12px/1.5 "Lucida Grande",Arial,sans-serif;
 color: #111;
 float: right;
-display: block;
+
 }
-li {
+.comx li {
 display: list-item;
 }
 .clearfix::after {
