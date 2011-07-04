@@ -2,29 +2,23 @@
 $ccc = '</br></br>';
 foreach ($comments as $comment) { ?>
 <div class="comx">
-<ul class="comment">
-<li id="comment_2520527" class="clearfix comment comment_2520527 userid_167224057">
- <span> 
- <div id="2520527" class="avatar female offline">
- <a href="/nor201104" title="nor201104 | ??? ?????? | ???? | 20 ???/?????" class="imageWrap person">
-  <img src="http://localhost/ci/img/thumb_male.jpg" alt="" width="80" height="60">
- </a>
- <a href="/nor201104" title="nor201104 | ??? ?????? | ???? | 20 ???/?????" class="nick person">
-  <span><?=$comment->username?></span> </a>
-<span class="age">20</span></div>
- </span>
- <p> 
-  
- <a href="/nor201104" class="displayName"><?=$comment->username?></a>
-      <small class="dimmed"><?=$comment->date?></small>
- </p>
- <span class="body smiley">
- 
-<?=$comment->text?></span>
-  <hr>
-  </li>
-  </ul>
-  </div>
+<ol class="commentlist">
+			<li class="comment even thread-even depth-1" id="comment-1441">
+				<div id="div-comment-1441" class="comment-body">
+				<div class="comment-author vcard">
+		<img alt="" src="http://localhost/ci/img/thumb_male.jpg" class="avatar avatar-32 photo" height="32" width="32">		<cite class="fn"><a href="#" rel="external nofollow" class="url"><?=$comment->username?></a></cite> <span class="says">םÞזב:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="#">
+			<?=$comment->date?></a>		</div>
+
+		<p><?=$comment->text?></p>
+
+		</div>
+		
+		</li>
+		
+	</ol>
+	</div>
 
 
 <?}?>
@@ -34,13 +28,8 @@ foreach ($comments as $comment) { ?>
 			$this->load->helper('form');
 			echo form_open('live/new_comment');
 			?>
-		</br>
-	  </br>
-	  </br>		</br>
-	  </br>
-	  </br>		</br>
-	  </br>
-	  </br>		</br>
+
+
 	  </br>
 	  </br>
 		<input type="hidden" name="video_id" value="<?=$video_id?>"/>
